@@ -8,7 +8,7 @@
  // destruir a variável de sessão
  //session_destroy() - destruir todas as variáveis de sessão
  */
-    session_destroy();
+ session_destroy();
 
-    header('Location: index.php');
+ header('Location: index.php');
 ?>
