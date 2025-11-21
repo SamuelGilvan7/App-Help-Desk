@@ -33,7 +33,7 @@ require_once "validador_acesso.php";
               <div class="row">
                 <div class="col">
                   
-                  <form method="post" action="registra_chamado.php">
+                  <form method="post" action="registrar_chamado.php">
                     <div class="form-group">
                       <label>Título</label>
                       <input name="titulo"  type="text" class="form-control" placeholder="Título">

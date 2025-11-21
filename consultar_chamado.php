@@ -1,6 +1,13 @@
 <?
 require_once "validador_acesso.php";
 ?>
+
+<?php 
+ //abrindo o arquivo
+ fopen('arquivo.hd', 'r');
+
+?>
+
 <html>
   <head>
     <meta charset="utf-8" />
