@@ -6,6 +6,5 @@
   if (!isset($_SESSION['autenticado']) || $_SESSION['autenticado'] != 'SIM') 
   header('Location: index.php?login=erro2');
 
-  // Exibe o valor da sessão 'autenticado' (apenas para teste/depuração).
-  echo  $_SESSION['autenticado'];
+
 ?>

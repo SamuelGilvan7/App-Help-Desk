@@ -1,15 +1,13 @@
 <?php 
     session_start();
-    echo '<pre>';
-    print_r($_POST);
-    echo '</pre>';
+
     $id = $_SESSION['id'];
     $titulo = str_replace( '#', '-',  $_POST['titulo'] );
     $categoria = str_replace( '#', '-',  $_POST['categoria'] );
     $descricao = str_replace( '#', '-',  $_POST['descricao'] );
 
     //abrindo o arquivo
-    $arquivo = fopen( 'arquivo.hd' , 'a');
+    $arquivo = fopen( '../../app_help_desk/arquivo.hd' , 'a');
 
     
 
